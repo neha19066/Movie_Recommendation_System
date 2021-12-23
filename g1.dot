@@ -1,0 +1,127 @@
+graph parent {
+	0 -- 1270 [style=invis]
+	1270 -- 127 [style=invis]
+	127 -- 2 [style=invis]
+	2 -- 4 [style=invis]
+	4 -- 1 [style=invis]
+	1 -- 6 [style=invis]
+	6 -- 159 [style=invis]
+	159 -- 3437 [style=invis]
+	{
+		rank=same
+		0 [label="frozenset({3527})"]
+		21763 [label="frozenset({50872})"]
+		21764 [label="frozenset({1201})"]
+		21772 [label="frozenset({1079})"]
+		21780 [label="frozenset({1407})"]
+		21781 [label="frozenset({11})"]
+		21782 [label="frozenset({3408})"]
+		21784 [label="frozenset({4034})"]
+		21786 [label="frozenset({89745})"]
+		21787 [label="frozenset({520})"]
+	}
+	{
+		rank=same
+		1270 [label="frozenset({590, 1198})"]
+		1271 [label="frozenset({590, 1270})"]
+		2679 [label="frozenset({377, 7153})"]
+		2680 [label="frozenset({5952, 377})"]
+		3480 [label="frozenset({3578, 150})"]
+		4503 [label="frozenset({588, 1214})"]
+		4504 [label="frozenset({6539, 1214})"]
+		4702 [label="frozenset({1210, 595})"]
+		4715 [label="frozenset({2571, 595})"]
+		4716 [label="frozenset({595, 527})"]
+	}
+	{
+		rank=same
+		127 [label="frozenset({608, 4306, 2959})"]
+		161 [label="frozenset({608, 4306, 318})"]
+		162 [label="frozenset({608, 4306, 260})"]
+		163 [label="frozenset({608, 4993, 4306})"]
+		164 [label="frozenset({608, 4306, 5952})"]
+		165 [label="frozenset({4306, 356, 150})"]
+		166 [label="frozenset({4306, 2571, 150})"]
+		167 [label="frozenset({1, 4306, 150})"]
+		168 [label="frozenset({4306, 50, 2959})"]
+		169 [label="frozenset({4306, 2571, 50})"]
+	}
+	{
+		rank=same
+		2 [label="frozenset({1, 356, 589, 1580})"]
+		3 [label="frozenset({2571, 1580, 589, 318})"]
+		14 [label="frozenset({1, 780, 1580, 589})"]
+		32 [label="frozenset({296, 2028, 589, 1580})"]
+		45 [label="frozenset({356, 1580, 589, 2028})"]
+		46 [label="frozenset({296, 2762, 1580, 780})"]
+		49 [label="frozenset({1580, 356, 589, 1270})"]
+		61 [label="frozenset({1, 2571, 1580, 589})"]
+		81 [label="frozenset({2858, 2571, 1580, 318})"]
+		82 [label="frozenset({1580, 2858, 356, 318})"]
+	}
+	{
+		rank=same
+		4 [label="frozenset({356, 2762, 2571, 2028, 1580})"]
+		8 [label="frozenset({2762, 2571, 2028, 1580, 1210})"]
+		9 [label="frozenset({356, 296, 2762, 2571, 1580})"]
+		10 [label="frozenset({356, 260, 296, 2762, 1580})"]
+		12 [label="frozenset({296, 2762, 2571, 2028, 1580})"]
+		15 [label="frozenset({296, 2762, 2571, 1580, 1210})"]
+		16 [label="frozenset({356, 2762, 2571, 1580, 589})"]
+		18 [label="frozenset({296, 2762, 2571, 1580, 589})"]
+		19 [label="frozenset({260, 296, 2762, 1580, 589})"]
+		20 [label="frozenset({2762, 2571, 2028, 589, 1580})"]
+	}
+	{
+		rank=same
+		1 [label="frozenset({1, 260, 1196, 589, 1580, 1210})"]
+		5 [label="frozenset({260, 2762, 2571, 1196, 1580, 2028})"]
+		7 [label="frozenset({260, 2762, 1196, 1580, 2028, 1210})"]
+		11 [label="frozenset({260, 296, 2762, 2571, 1196, 1580})"]
+		13 [label="frozenset({260, 296, 2762, 1196, 1580, 1210})"]
+		25 [label="frozenset({2762, 2571, 1196, 780, 1580, 1210})"]
+		27 [label="frozenset({260, 2762, 2571, 780, 589, 1580})"]
+		28 [label="frozenset({260, 2762, 2571, 1196, 780, 1580})"]
+		34 [label="frozenset({480, 356, 260, 780, 589, 1580})"]
+		38 [label="frozenset({480, 260, 1196, 589, 1580, 2028})"]
+	}
+	{
+		rank=same
+		6 [label="frozenset({356, 260, 2762, 2571, 1196, 1580, 1210})"]
+		17 [label="frozenset({356, 260, 2762, 1196, 589, 1580, 1210})"]
+		26 [label="frozenset({260, 2762, 1196, 589, 780, 1580, 1210})"]
+		29 [label="frozenset({260, 2762, 2571, 1196, 589, 1580, 1210})"]
+		30 [label="frozenset({480, 260, 1196, 589, 1580, 1270, 1210})"]
+		31 [label="frozenset({356, 260, 2571, 1196, 589, 1580, 1210})"]
+		33 [label="frozenset({356, 260, 1196, 780, 589, 1580, 1210})"]
+		35 [label="frozenset({480, 356, 260, 1196, 589, 1580, 1210})"]
+		42 [label="frozenset({260, 2571, 1196, 1580, 589, 2028, 1210})"]
+		47 [label="frozenset({260, 2571, 1196, 589, 1580, 1270, 1210})"]
+	}
+	{
+		rank=same
+		159 [label="frozenset({480, 260, 2571, 1196, 780, 589, 1580, 1210})"]
+		173 [label="frozenset({480, 260, 356, 2571, 1196, 780, 1580, 1210})"]
+		177 [label="frozenset({480, 260, 296, 2571, 1196, 780, 1580, 1210})"]
+		178 [label="frozenset({260, 356, 296, 2571, 1196, 780, 1580, 1210})"]
+		208 [label="frozenset({480, 260, 2571, 1196, 780, 1580, 1270, 1210})"]
+		209 [label="frozenset({480, 260, 356, 1196, 780, 1580, 1270, 1210})"]
+		511 [label="frozenset({4993, 260, 356, 2571, 1196, 2959, 4306, 1210})"]
+		684 [label="frozenset({5952, 260, 2571, 1196, 2959, 7153, 4306, 1210})"]
+		2276 [label="frozenset({260, 356, 296, 2571, 1196, 2959, 1270, 1210})"]
+		2288 [label="frozenset({480, 260, 356, 2571, 1196, 2959, 1270, 1210})"]
+	}
+	{
+		rank=same
+		3437 [label="frozenset({5952, 4993, 260, 356, 2571, 1196, 7153, 4306, 1210})"]
+		3729 [label="frozenset({4993, 260, 356, 296, 2571, 1196, 2959, 3578, 1210})"]
+		3821 [label="frozenset({5952, 4993, 260, 356, 2571, 1196, 2959, 7153, 3578})"]
+		11318 [label="frozenset({480, 260, 356, 296, 2571, 1196, 780, 589, 1210})"]
+		11593 [label="frozenset({480, 260, 356, 296, 2571, 1196, 589, 2959, 1210})"]
+		11607 [label="frozenset({480, 260, 356, 296, 2571, 1196, 780, 2959, 1210})"]
+		13104 [label="frozenset({480, 260, 356, 2762, 2571, 1196, 780, 589, 1210})"]
+		13108 [label="frozenset({480, 260, 296, 2762, 2571, 1196, 780, 589, 1210})"]
+		14450 [label="frozenset({5952, 4993, 260, 356, 2571, 1196, 780, 7153, 1210})"]
+		14451 [label="frozenset({480, 5952, 4993, 260, 2571, 1196, 780, 7153, 1210})"]
+	}
+}
